@@ -1,0 +1,19 @@
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+ width: 100%;
+}
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+label {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+body {
+    transition: 200ms;
+}

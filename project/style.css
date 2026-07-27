@@ -37,7 +37,6 @@ padding: 0;
 }
 .logo img{
   width:40px;
-  height:120px ;
   border-radius:30px;
   margin:10px;
 }
@@ -64,6 +63,7 @@ padding: 0;
 
 .content3 img{
   border-radius:6px;
+   height:120px ;
   margin-right:6px;
 }
 .the-ideas {

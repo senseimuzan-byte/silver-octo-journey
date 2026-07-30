@@ -1,0 +1,75 @@
+*,html,body{
+padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.fullboxr nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgba(255,255,255,0.3);
+  width:100%;
+  height:60px;
+  border-bottom:solid;
+  text-transform:capitalize;
+  position:relative;
+}
+#menu,a{
+  display:flex;
+  list-style-type: none;
+  text-decoration: none
+  
+}
+#menu li a {
+  margin:5px;
+  color:black;
+  font-weight: 600;
+}
+#menu li:hover {
+  border-bottom:solid;
+  transition:400ms;
+}
+.logo{
+  display:flex;
+  align-items:center;
+  
+  
+}
+.logo img{
+  width:40px;
+  border-radius:30px;
+  margin:10px;
+}
+.logo p {
+  font-weight:500;
+  text-transform: capitalize;
+}
+.content3 {
+  display:flex;
+  background-color:rgba(225,225,225,0.3);
+  padding:30px 20px;
+  width:100%;
+  border:2px solid black;
+}
+
+.Nomber{
+  position:absolute;
+  padding:6px;
+  top: 64px;
+  background-color:grey;
+  border-radius:5px;
+  border:2px solid black;
+}
+
+.content3 img{
+  border-radius:6px;
+  margin-right:6px;
+  height:120px ;
+}
+.the-ideas {
+  margin-top:10px;
+  text-transform:capitalize;
+  padding-top:6px;
+  border:1px solid black;
+  padding:10px;
+}

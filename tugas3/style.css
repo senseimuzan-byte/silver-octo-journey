@@ -1,35 +1,34 @@
-*,html,body {
-    padding: 0;
-    margin:0;
-    box-sizing:border-box;
-    font-family: monospace,sans-serif;
-}
+*,
+html,
 body {
-     display: block;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace, sans-serif;
+}
+
+body {
+    display: block;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height:100%;
+    height: 100%;
 }
+
 button {
-    padding:10px;
-    width:100%;
+    padding: 10px;
+    width: 100%;
     background-color: rgb(225, 225, 225);
-    font-weight:600;
+    font-weight: 600;
     text-transform: capitalize;
     font-size: medium;
 }
-#hasil {
-    width:40%;
-    color:rgb(255, 255, 255);
-    display:none;
-    justify-content:center;
-    align-items: center;
-    font-size: large;
-    font-weight:400;
-   margin:50px 60px;
-   background-color: grey;
-   padding:40px 75px;
-    border-radius:20px;
 
+#hasil {
+    margin: 60px;
+    padding: 10px;
+    display: none;
+    border: none;
+    border-radius: 16px;
+    background-color: grey;
 }
